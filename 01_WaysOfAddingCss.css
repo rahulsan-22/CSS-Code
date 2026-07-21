@@ -1,4 +1,4 @@
-input{
+/* input{
   color:white;
   background-color: purple;
 }
@@ -6,4 +6,8 @@ input{
 textarea{
   color: white;
   background-color: tomato;
+} */
+
+h1{
+  color: blue !important;
 }

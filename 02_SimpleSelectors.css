@@ -1,0 +1,18 @@
+/* !ELEMENT */
+input{
+  color: yellow;
+  background-color: green;
+}
+/* !ID */
+#myLove{
+  color: white;
+  background-color: red;
+}
+/* !CLASS */
+.biryani{
+  color: white;
+  background-color: hotpink;
+}
+.fav{
+  text-align: center;
+}
