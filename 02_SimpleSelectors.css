@@ -16,3 +16,30 @@ input{
 .fav{
   text-align: center;
 }
+/* !GROUPING(,) */
+h4,#late,.traffic{
+  color: white;
+  background-color: maroon;
+}
+
+/* !UNIVERSAL (*) */
+*{
+  border: 10px solid lime;
+}
+
+/* !PRIORITIES */
+a{
+  color: red;
+}
+
+#google{
+  color: green;
+}
+
+.link{
+  color: yellow;
+}
+
+*{
+  color: orange;
+}
