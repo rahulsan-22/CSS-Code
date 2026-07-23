@@ -1,5 +1,5 @@
 /* ! DESCENDENT SELECTOR (SPACE) */
-section p{
+/* section p{
   color: white;
   background-color: red;
 }
@@ -27,10 +27,10 @@ section h2{
 section div{
   color: white;
   background-color: purple;
-}
+} */
 
 /* ! CHILD SELECTOR (>) */
-section>p{
+/* section>p{
   color: white;
   background-color: red;
 }
@@ -58,4 +58,46 @@ section>h2{
 section>div{
   color: white;
   background-color: purple;
+} */
+
+/* !ADJACENT SIBLING SELECTOR(+) */
+p+h1{
+  color: white;
+  background-color: brown;
+}
+
+h1+p{
+  color: white;
+  background-color: limegreen;
+}
+
+p+p{
+  color: white;
+  background-color: darkslateblue;
+}
+
+h1+div{
+  color: white;
+  background-color: black;
+}
+
+/* !GENERAL SIBLING SELECTOR(~) */
+p~h1{
+  color: white;
+  background-color: brown;
+}
+
+h1~p{
+  color: white;
+  background-color: limegreen;
+}
+
+p~p{
+  color: white;
+  background-color: darkslateblue;
+}
+
+p~div{
+  color: white;
+  background-color: black;
 }

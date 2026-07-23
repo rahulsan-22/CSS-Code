@@ -1,0 +1,59 @@
+/* ! :HOVER */
+h1:hover{
+ color: brown;
+ background-color: bisque;
+}
+
+#btn:hover{
+  color: white;
+  background-color: royalblue;
+}
+
+/* ! :FOCUS */
+input:focus{
+  color: maroon;
+  background-color: aqua;
+}
+
+/* ! :ACTIVE */
+a:active{
+  color: yellow;
+}
+
+/* ! :VISITED */
+a:visited{
+  color: tomato;
+}
+
+/* ! :FIRST-CHILD */
+/* div>p:first-child{
+  color: white;
+  background-color: red;
+} */
+
+/* ! :LAST-CHILD */
+/* div>p:last-child{
+  color: white;
+  background-color: black;
+} */
+
+/* ! :NTH-CHILD */
+/* div>p:nth-child(4){
+  color: white;
+  background-color: green;
+} */
+
+/* div>p:nth-child(3n){
+  color: white;
+  background-color: blue;
+} */
+
+div>p:nth-child(even){
+  color: white;
+  background-color:green;
+}
+
+div>p:nth-child(odd){
+  color: white;
+  background-color:orange;
+}
