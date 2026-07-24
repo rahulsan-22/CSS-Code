@@ -1,27 +1,27 @@
 /* ! :HOVER */
-h1:hover{
- color: brown;
- background-color: bisque;
+h1:hover {
+  color: brown;
+  background-color: bisque;
 }
 
-#btn:hover{
+#btn:hover {
   color: white;
   background-color: royalblue;
 }
 
 /* ! :FOCUS */
-input:focus{
+input:focus {
   color: maroon;
   background-color: aqua;
 }
 
 /* ! :ACTIVE */
-a:active{
+a:active {
   color: yellow;
 }
 
 /* ! :VISITED */
-a:visited{
+a:visited {
   color: tomato;
 }
 
@@ -48,12 +48,23 @@ a:visited{
   background-color: blue;
 } */
 
-div>p:nth-child(even){
+div > p:nth-child(even) {
   color: white;
-  background-color:green;
+  background-color: orange;
 }
 
-div>p:nth-child(odd){
+div > p:nth-child(odd) {
   color: white;
-  background-color:orange;
+  background-color: green;
+}
+
+/* ! :CHECKED */
+input:checked+label{
+  color: brown;
+}
+
+/* ! :NOT() */
+ul>li:not(.exclude){
+  color: white;
+  background-color: chocolate;
 }

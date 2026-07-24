@@ -1,0 +1,41 @@
+/* ! ::first-letter */
+p::first-letter{
+  color: red;
+  font-size: xx-large;
+}
+
+/* ! ::first-line */
+p::first-line{
+  color: white;
+  background-color: seagreen;
+}
+
+/* ! ::before */
+p::before{
+  content: "😎";
+}
+
+/* ! ::after */
+p::after{
+  content:"🥳";
+}
+
+/* ! ::selection */
+p::selection{
+  color: yellow;
+  background-color: green;
+}
+
+/* ! ::marker */
+li::marker{
+  color: red;
+}
+
+li::marker{
+  content:"🔥"
+}
+
+/* ! ::placeholder */
+input::placeholder{
+  color: red;
+}
