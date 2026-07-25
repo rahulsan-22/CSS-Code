@@ -1,0 +1,10 @@
+/* ! [attribute] */
+[alt]{
+  border: 10px solid red;
+}
+
+/* ! [attribute = value] */
+[alt="anushka"]{
+  height: 1200px;
+  width: 550px;
+}
