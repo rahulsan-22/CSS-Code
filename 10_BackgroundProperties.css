@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 10px solid black;
+  height:100vh;
+
+  background-color: black;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.416);
+  background-color: #ff0;
+
+  background-image: url("https://preview.redd.it/anushka-is-more-remembered-in-tamil-nadu-for-her-roles-in-v0-xndd8lms91re1.jpeg?width=640&crop=smart&auto=webp&s=b2321f964058af59a79e2e10fbf7fcec89dd8dfc");
+  background-image: url("./anushka.jpg");
+
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+}
