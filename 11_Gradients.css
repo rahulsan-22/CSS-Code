@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(to bottom,green,yellow,orange,hotpink);
+  background: linear-gradient(to top,green,yellow,orange,hotpink);
+  background: linear-gradient(to right,green,yellow,orange,hotpink);
+  background: linear-gradient(to left,green,yellow,orange,hotpink);
+  background: linear-gradient(to top left,green,yellow,orange,hotpink);
+  background: linear-gradient(to top right,green,yellow,orange,hotpink);
+  background: linear-gradient(to bottom right,green,yellow,orange,hotpink);
+  background: linear-gradient(to bottom left,green,yellow,orange,hotpink);
+  background: linear-gradient(to bottom left,green 0% 5%,yellow 5% 10%,orange 10% 15%,hotpink 15% 20%);
+  background: repeating-linear-gradient(to bottom left,green 0% 1%,yellow 1% 2%,orange 2% 3%,hotpink 3% 4%);
+}

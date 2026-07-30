@@ -20,4 +20,32 @@ body {
   background-repeat: repeat-x;
   background-repeat: repeat-y;
   background-repeat: no-repeat;
+
+  background-size: 350px 450px;
+  background-size: 350px;
+  background-size: cover;
+  background-size: contain;
+
+  background-size: 250px 350px;
+  background-position: top left;
+  background-position: top center;
+  background-position: top right;
+  background-position: right center;
+  background-position: right bottom;
+  background-position: bottom center;
+  background-position: bottom left;
+  background-position: center left;
+  background-position: center center;
+  background-position: top;
+  background-position: right;
+  background-position: bottom;
+  background-position: left;
+  background-position: center;
+
+  font-size: 100px;
+
+  background-attachment: scroll;
+  background-attachment: fixed;
+
+  background:lightblue url("./anushka.jpg") no-repeat center/300px 400px fixed;
 }
