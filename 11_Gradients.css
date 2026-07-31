@@ -16,4 +16,23 @@ body{
   background: linear-gradient(to bottom left,green,yellow,orange,hotpink);
   background: linear-gradient(to bottom left,green 0% 5%,yellow 5% 10%,orange 10% 15%,hotpink 15% 20%);
   background: repeating-linear-gradient(to bottom left,green 0% 1%,yellow 1% 2%,orange 2% 3%,hotpink 3% 4%);
+
+  background:radial-gradient(ellipse,violet,indigo,blue,green,yellow,orange,red);
+  background:radial-gradient(circle,violet,indigo,blue,green,yellow,orange,red);
+  background:radial-gradient(circle,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+  background:repeating-radial-gradient(circle,violet 0% 1%,indigo 1% 2%,blue 2% 3%,green 3% 4%,yellow 4% 5%,orange 5% 6%,red 6% 7%);
+}
+
+#pieChart{
+  height: 500px;
+  width: 500px;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin-top:200px;
+  margin-left: 520px;
+  background: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+  background: conic-gradient(violet 0% 0.5%,indigo 0.5% 1%,blue 1% 1.5%,green 1.5
+  
+  % 2%,yellow 2% 2.5%,orange 2.5% 3%,red 3% 3.5%);
+  background: repeating-conic-gradient(violet 0% 0.5%,indigo 0.5% 1%,blue 1% 1.5%,green 1.5% 2%,yellow 2% 2.5%,orange 2.5% 3%,red 3% 3.5%);
 }
