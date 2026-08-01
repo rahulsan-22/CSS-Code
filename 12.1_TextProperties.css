@@ -1,12 +1,12 @@
-*{
+* {
   /* margin: 0; */
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration-line: none;
 }
-p{
+p {
   text-decoration-line: overline;
   text-decoration-line: line-through;
   text-decoration-line: underline;
@@ -21,5 +21,32 @@ p{
 
   text-decoration-color: red;
 
-  text-decoration: underline 3px double hotpink;
+  text-decoration: underline 1px double hotpink;
+
+  text-indent: 100px;
+
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+
+  text-shadow: 1px 1px 3px green;
+
+  word-spacing: normal;
+  word-spacing: 20px;
+
+  letter-spacing: normal;
+  letter-spacing: 2px;
+
+  line-height: normal;
+  line-height: 40px;
+
+  text-align: left;
+  text-align: center;
+  text-align: right;
+  text-align: justify;
+
+  text-align-last: left;
+  text-align-last: center;
+  text-align-last: right;
+  text-align-last: justify;
 }
