@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 5px solid red;
+  /* display: block; */
+  /* display: inline; */
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  padding: 20px;
+}
+
+span {
+  border: 5px solid blue;
+  /* display: block; */
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  padding: 20px;
+}
