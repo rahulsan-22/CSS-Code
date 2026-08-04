@@ -22,3 +22,20 @@ span {
   margin: 40px;
   padding: 20px;
 }
+div{
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  display: inline-block;
+}
+#one{
+  background-color: red;
+}
+#two{
+  background-color: green;
+  display: none;
+  /* visibility: hidden; */
+}
+#three{
+  background-color: blue;
+}
