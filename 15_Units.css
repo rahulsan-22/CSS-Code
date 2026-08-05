@@ -1,20 +1,49 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* ! ABSOLUTE VS RELATIVE */
-#parent{
+#parent {
   height: 400px;
   background-color: yellow;
 }
-#absolute{
+#absolute {
   height: 200px;
   background-color: red;
   width: 600px;
 }
-#relative{
+#relative {
   height: 200px;
   background-color: blue;
   width: 90%;
+}
+
+/* ! VH and VW */
+main {
+  border: 10px solid black;
+  background-color: green;
+  height: 50vh;
+  width: 80vw;
+}
+/* ! EM */
+#father {
+  font-size: 50px;
+}
+#para1 {
+  font-size: 2em;
+}
+#para2 {
+  font-size: 100px;
+}
+
+/* ! REM */
+html {
+  font-size: 5px;
+}
+#content1 {
+  font-size:5rem;
+}
+#content2 {
+  font-size: 25px;
 }

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ! STATIC */
+#static{
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: red;
+  position: static;
+  top: 200px;
+  right: 300px;
+}
+
+/* !RELATIVE */
+#relative{
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: blue;
+  position: relative;
+  top: 200px;
+  bottom: 1000px;
+  left: 600px;
+  right: 1000px;
+}
