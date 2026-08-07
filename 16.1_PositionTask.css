@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* !NAVBAR */
+nav {
+  height: 80px;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+nav > h2 {
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
+.links {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.links > a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* !HEADER */
+header {
+  height: 60px;
+  background-color: gold;
+  text-align: center;
+  position: sticky;
+  top: 80px;
+  z-index: 100;
+}
+header > h2 {
+  position: relative;
+  top: 15px;
+}
+
+/* ! SECTION */
+section {
+  min-height: 120vh;
+  background-color: #efefef;
+}
+.card {
+  height: 370px;
+  width: 320px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  top: 100px;
+  left: 600px;
+  padding: 20px;
+}
+.card > img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+#offer {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+}
+#new {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.card > h2,
+.card > h3 {
+  text-align: center;
+}
+.card > h2 {
+  margin: 13px 0px;
+}
+.card > h3 {
+  color: red;
+}
+.card > button {
+  padding: 10px 25px;
+  background-color: orangered;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  top: 15px;
+  left: 90px;
+}
+
+.dabba {
+  height: 170px;
+  width: 280px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 70px;
+  position: absolute;
+}
+#sales {
+  background-color: tomato;
+  bottom: -100px;
+  left: 570px;
+}
+#limitedOffer {
+  background-color: green;
+  bottom: -150px;
+  left: 700px;
+}
+
+#chat{
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  background-color: limegreen;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 13px;
+  right: 30px;
+}

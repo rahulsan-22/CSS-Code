@@ -5,7 +5,7 @@
 }
 
 /* ! STATIC */
-#static{
+/* #static{
   height: 200px;
   width: 200px;
   border: 5px solid black;
@@ -13,10 +13,10 @@
   position: static;
   top: 200px;
   right: 300px;
-}
+} */
 
 /* !RELATIVE */
-#relative{
+/* #relative{
   height: 200px;
   width: 200px;
   border: 5px solid black;
@@ -26,4 +26,71 @@
   bottom: 1000px;
   left: 600px;
   right: 1000px;
+} */
+
+/* ! ABSOLUTE */
+/* #parent{
+  height: 650px;
+  width: 700px;
+  background-color: yellow;
+  border: 10px solid black;
+  margin: 50px;
+  position: relative;
+}
+div{
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+}
+#one{
+  background-color: red;
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+}
+#two{
+  background-color: green;
+  position: absolute;
+  z-index: 1;
+}
+#three{
+  background-color: blue;
+  position: absolute;
+  z-index: 10;
+  left: 10px;
+} */
+
+/* ! FIXED */
+/* #fixed{
+  height: 250px;
+  width: 250px;
+  border: 5px solid black;
+  background-color: purple;
+  position: fixed;
+  top: 200px;
+  left: 500px;
+}
+p{
+  font-size: 150px;
+} */
+
+/* !STICKY */
+section{
+  height: 1000px;
+  border: 10px solid black;
+}
+#one{
+  background-color:lightblue;
+}
+#two{
+  background-color: lightpink;
+}
+nav{
+  height: 100px;
+  background-color: yellow;
+  position: sticky;
+  top: 0px;
+}
+p{
+  font-size: 200px;
 }
