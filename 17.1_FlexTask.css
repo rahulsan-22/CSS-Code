@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*! NAVBAR */
+nav {
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+#nav_one {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav_two {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 50px;
+  padding-right: 80px;
+}
+#nav_two > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* !HEADER */
+header {
+  height: 60px;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 80px;
+  z-index: 100;
+}
+
+/* !SECTION */
+section {
+  height: 120vh;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+
+#section_one {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  height: 380px;
+  width: 320px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+#card > img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+#offer {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+}
+#new {
+  background-color: orangered;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+#card > h3 {
+  color: red;
+}
+#card > button {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+#section_two {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#section_two > div {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+#sales {
+  background-color: tomato;
+  position: relative;
+  left: 55px;
+}
+#limited_offer {
+  background-color: green;
+  position: relative;
+  right: 100px;
+  top: 50px;
+}
+#chat{
+  height: 70px;
+  width: 70px;
+  background-color: lime;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}

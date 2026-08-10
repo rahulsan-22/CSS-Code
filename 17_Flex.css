@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#parent{
+#parent {
   height: 650px;
   width: 750px;
   background-color: yellow;
@@ -12,7 +12,7 @@
   display: flex;
   /* flex-direction: row; */
   /* flex-direction: row-reverse; */
-  /* flex-direction: column; */
+  flex-direction: column;
   /* flex-direction: column-reverse; */
   /* row-gap: 20px; */
   /* column-gap: 50px; */
@@ -34,18 +34,24 @@
   /* align-items: flex-end; */
 }
 
-div{
+div {
   height: 150px;
   width: 150px;
   border: 5px solid black;
 }
 
-#one{
+#one {
   background-color: red;
+  flex-basis: 100px;
+  flex-basis: 10%;
 }
-#two{
+#two {
   background-color: green;
+  flex-basis: 250px;
+  flex-basis: 20%;
 }
-#three{
+#three {
   background-color: blue;
+  flex-basis: 300px;
+  flex-basis: 70%;
 }
