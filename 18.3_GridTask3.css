@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#parent{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+div{
+  margin: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#one,#five{
+  background-color: lightblue;
+  grid-column: 1/4;
+}
+#two{
+  background-color: lightgreen;
+}
+#three{
+  background-color: lightsalmon;
+}
+#four{
+  background-color: lightpink;
+}
